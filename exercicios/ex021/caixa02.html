@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #aaaaaa;
+            margin: 0px;
+        }
+
+        header {
+            background-color: #bbbbbb;
+            padding: 10px;
+            border: 5px solid #888888;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #777777;
+            padding: 3px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.56)
+            ;
+            }
+
+        nav > a {
+            text-decoration: none;
+            color: #a0a0a0;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a:active {
+            color: #00ff00;
+        }
+
+        article {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 5px solid #999999;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        article > aside {
+            background-color: #dddddd;
+            border: 3px solid #d8d8d8;
+            border-radius: 3px;
+            display: inline=block;
+            padding: 3px;
+        }
+
+        main {
+            background-color: #bbbbbb;
+            padding: 10px;
+            border: 5px solid #888888;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #555555;
+            color: #dddddd;
+            text-align: center;
+            padding: 4px;
+            margin: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: #555555;
+            border-radius: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre jardinagem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel ex maiores possimus quaerat quasi consectetur tempora, eveniet obcaecati est, fuga odio amet quam perspiciatis, dolor quia explicabo placeat nostrum!</p>
+                <aside>
+                    <p>Artigo escrito por Leo</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <div id="bola"></div>
+    <footer>
+        <p>Desenvolvido por Leo&copy;</p>
+    </footer>
+</body>
+</html>
