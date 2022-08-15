@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        iframe#tela {
+            height: 400px;
+            width: 90vw;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed necessitatibus quos reprehenderit porro animi rerum laudantium aut aliquam illo enim magni excepturi adipisci minus, hic mollitia consequuntur sint odio incidunt?</p>
+
+    <ul>
+        <li><a href="paginas_extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas_extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas_extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque expedita ipsa minus velit temporibus, nisi enim vero deleniti rerum debitis tempore, quis illum culpa natus provident perspiciatis veritatis eveniet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo molestias unde commodi, pariatur maxime obcaecati qui esse, voluptatum rem ut recusandae eaque sunt et cum suscipit temporibus numquam libero!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima.</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eaque expedita ipsa minus velit temporibus, nisi enim vero deleniti rerum debitis tempore, quis illum culpa natus provident perspiciatis veritatis eveniet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nemo molestias unde commodi, pariatur maxime obcaecati qui esse, voluptatum rem ut recusandae eaque sunt et cum suscipit temporibus numquam libero!</p><img src='imagens/miau.jpg' />">
+        <p>Infelizmente seu navegador não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet expedita ex vel ratione laboriosam harum numquam eaque alias! Molestias sapiente veritatis quae minima ex nisi iure vero alias porro est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eveniet. Quidem temporibus culpa eius quae, minima rem laboriosam delectus ex fuga suscipit veniam, modi aperiam? Itaque eos sint quaerat! Cupiditate.</p>
+</body>
+</html>
